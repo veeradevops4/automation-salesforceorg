@@ -69,8 +69,8 @@ pipeline {
 
         stage('deploy to salesforce org'){
             steps {
-                sh "sfdx force:source:deploy -p force-app/main/default/settings -u $SFDX_HUB_ORG_DH --checkonly --verbose"
-                sh "sfdx force:source:deploy -p force-app/main/default -u $SSFDX_HUB_ORG_DH --wait 10"
+                sh "sf force:source:deploy -p force-app/main/default/settings -u $SFDX_HUB_ORG_DH --checkonly --verbose"
+                sh "sf force:source:deploy -p force-app/main/default -u $SSFDX_HUB_ORG_DH --wait 10"
             }
         }
     }
