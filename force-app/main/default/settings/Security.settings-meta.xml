@@ -1,0 +1,4 @@
+<SecuritySettings xmlns="http://soap.sforce.com/2006/04/metadata">
+  <canUsersGrantLoginAccess>false</canUserGrantLoginAccess>
+  <enableAdminLoginAsAnyUser>false</enableAdminLoginAsAnyUser>
+</SecuritySettings>
