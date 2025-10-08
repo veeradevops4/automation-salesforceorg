@@ -39,8 +39,8 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>Security</members>
-        <members>ConnectedApp</members>
-        <name>Settings</name>
+        <!-- <members>ConnectedApp</members> -->
+        <!-- <name>Settings</name> -->
         <!-- <name>ApexClass</name> -->
     </types>
     <types>
