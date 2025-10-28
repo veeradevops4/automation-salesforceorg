@@ -48,6 +48,10 @@
         <name>RemoteSiteSettings</name>
     </types>
     <types>
+        <members>*</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
         <members>AccountCleanInfo</members>
         <name>CustomObject</name>
     </types>
