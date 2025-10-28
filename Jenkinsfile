@@ -71,7 +71,7 @@ pipeline {
             steps {
                  sh '''
                     sf project deploy start \
-                        --source-dir force-app/main/default/settings \
+                        --source-dir force-app/main/default \
                         --target-org $SFDX_HUB_ORG_DH \
                         --wait 10 \
                         --verbose
