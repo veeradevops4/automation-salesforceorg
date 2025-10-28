@@ -47,11 +47,11 @@
         <members>*</members>
         <name>RemoteSiteSettings</name>
     </types>
-    <!-- <types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
     <types>
+        <members>AccountCleanInfo</members>
+        <name>CustomObject</name>
+    </types>
+    <!-- <types>
         <members>*</members>
         <name>ApexTestSuite</name>
     </types>
@@ -69,7 +69,7 @@
     </types>
     <types>
         <members>*</members>
-        <name>StaticResource</name> -->
-    <!-- </types> -->
+        <name>StaticResource</name> 
+    </types> -->
     <version>55.0</version>
 </Package>
