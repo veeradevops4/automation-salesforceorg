@@ -66,6 +66,15 @@ pipeline {
                 }
             }
         }
+        stage('Retrieve all metadata'){
+            steps {
+                sh '''
+                sf project generate manifest --from-org QAOrg --name package.xml
+                sf project retrieve start --manifest package.xml --target-org 
+                sf project retrieve start --metadata '*'
+                '''
+            }
+        }
 
         stage('deploy to salesforce org'){
             steps {
